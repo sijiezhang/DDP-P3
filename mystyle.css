@@ -1,0 +1,165 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+.current a{
+    font-weight: bold;
+    color:grey;
+}
+
+/*
+#title{
+    padding-left: 10%;
+}
+*/
+header{
+    background: #35424a;    
+    color: #2696BC;
+    padding-top:30px;
+    min-height: 70px;
+    border-bottom: 3px solid orange
+}
+
+header a{
+    color:#a8491d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+header li{
+    float: right;
+    list-style: none;
+    font-size: 0.3rem;
+    margin-top: -10px;
+    
+}
+
+header #title{
+    float: left;
+}
+
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header current a{
+    color:#a8491d;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+#image{
+    background: url(../images/earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 100%;
+    color: #e8491d;
+    text-align: center;
+    margin-top:0;
+}
+
+#subscribe{
+    background-color: #35424a;
+}
+
+figure{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+figure img{
+    width: 80%;
+    height: 300px !important;
+    
+}
+
+#middle{
+    padding-top: 100px;
+/*    top:200px;*/
+/*    position: relative;*/
+}
+
+#image h1{
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+#image p{
+    font-size: 20px;
+}
+
+#middle{
+    padding-top: -500px; 
+}
+
+
+#subscribe h2{
+    float: left;
+    font-size: 1rem;    
+}
+
+
+#subscribe form{
+    float: right;
+    padding: 10px;
+    
+}
+
+#flex2{
+    padding: 10px 0px;
+}
+
+#aboutus{
+    width: 60%;
+
+    
+}
+#whatwedo{
+    position: relative;
+    top:-200px;
+    width:30%;
+    float: right;
+    background-color:#35424a; 
+}
+
+footer{
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #35424a;
+    padding: 10px;
+}
+
+#pricing{
+    float: left;
+    margin-right: 300px
+}
+
+#pricing ul li{
+    list-style: none;
+    border: 2px solid brown;
+    padding: 0 2px;
+}
+
+#aside{
+    float: right;
+}
+@media only screen size 
